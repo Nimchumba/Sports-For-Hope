@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="background" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14532d"/>
+      <stop offset="1" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="12" y1="20" x2="24" y2="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bef264"/>
+      <stop offset="1" stop-color="#65a30d"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="0" cy="0" r="1" gradientTransform="matrix(19 20 -20 19 25 18)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#d1fae5"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#background)"/>
+  <rect x="1" y="1" width="62" height="62" rx="17" fill="none" stroke="#a3e635" stroke-opacity=".65" stroke-width="2"/>
+
+  <g fill="url(#leaf)">
+    <path d="M17 47c-7-1-10-5-10-10 7 0 11 3 12 9 1-9-2-16-9-21 6-1 12 3 13 10 2-6 1-12-3-17 7 1 11 7 9 14 4-8 3-15 0-20 8 4 10 11 6 19-4 9-9 15-18 16Z"/>
+    <path d="M47 47c7-1 10-5 10-10-7 0-11 3-12 9-1-9 2-16 9-21-6-1-12 3-13 10-2-6-1-12 3-17-7 1-11 7-9 14-4-8-3-15 0-20-8 4-10 11-6 19 4 9 9 15 18 16Z"/>
+  </g>
+  <path d="M16 50c4 5 10 7 16 7s12-2 16-7" fill="none" stroke="#bef264" stroke-linecap="round" stroke-width="2"/>
+
+  <circle cx="32" cy="30" r="17" fill="#052e16" opacity=".35"/>
+  <circle cx="32" cy="28" r="17" fill="url(#ball)" stroke="#f0fdf4" stroke-width="1.5"/>
+  <g clip-path="url(#ball-clip)" fill="none" stroke="#166534" stroke-linecap="round" stroke-width="1.5">
+    <path d="M32 11v10m16-6-10 10m14 9-16-3m-4 24V33m-16 4 16-5m-14-17 10 11"/>
+  </g>
+  <path d="m32 21 6 4.4-2.3 7.1h-7.4L26 25.4 32 21Z" fill="#052e16"/>
+  <defs>
+    <clipPath id="ball-clip">
+      <circle cx="32" cy="28" r="16.2"/>
+    </clipPath>
+  </defs>
+</svg>

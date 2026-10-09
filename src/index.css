@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1f7a1f;
+  --color-brand-dark: #0b2a14;
+  --color-leaf: #4caf2a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+.hero-title {
+  font-family: 'Anton', 'Arial Black', sans-serif;
+  font-size: clamp(4rem, 8vw, 12rem);
+  line-height: 0.9;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #ffffff 0%, #edfef4 38%, #d8fbe0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+.stat-number {
+  min-width: 8rem;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.15rem;
+  color: #d5ffe0;
+}
+
+.stat-value,
+.stat-suffix {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  display: inline-block;
+}
+
+.stat-value {
+  font-size: clamp(2.4rem, 4vw, 4.75rem);
+  text-shadow: 0 0 18px rgba(138, 255, 178, 0.35);
+}
+
+.stat-suffix {
+  font-size: clamp(1.5rem, 2.5vw, 2.8rem);
+  transform: translateY(-0.15em);
+}
+
+.stat-label {
+  margin-top: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: rgba(236, 255, 241, 0.9);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    letter-spacing: 0.02em;
+  }
+
+  .stat-number {
+    min-width: 5.5rem;
+  }
+}
