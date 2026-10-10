@@ -33,7 +33,7 @@ function About() {
 
             <p className="mt-5 text-gray-600">
               <span className="mb-2 block text-lg font-black uppercase tracking-wide text-green-700">
-                More Than a Game
+                More Than a Game It is our DNA
               </span>
               Founded in 2019 and based in Gatongora, Ruiru, Kenya, Sports for Hope Academy is dedicated to nurturing young talent and empowering young people from all backgrounds through sport. We provide football training, physical fitness and conditioning, and mentorship to help young people develop their skills, confidence, discipline, and teamwork, both on and off the pitch.
             </p>

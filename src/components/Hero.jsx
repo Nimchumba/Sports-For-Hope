@@ -7,7 +7,7 @@ const stats = [
   { value: 2019, suffix: '', label: 'Established' },
   { value: 150, suffix: '+', label: 'Players trained' },
   { value: 6, suffix: '', label: 'Age categories' },
-  { value: 1, suffix: '', label: 'Coaches' },
+  { value: 10, suffix: '', label: 'Coaches' },
 ]
 
 function Hero() {

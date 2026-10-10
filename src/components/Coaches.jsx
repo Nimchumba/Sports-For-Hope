@@ -1,14 +1,14 @@
 import coachPhoto from '../assets/coach.jpeg'
 
 const coach = {
-  name: 'NEGWUIN ADEYA',
+  name: 'NEWGUIN ADEA',
   role: 'HEAD COACH AND MANAGER',
   bio: 'My work is centered on using sport as a platform for discipleship, evangelism, character development, and positive social change. Through coaching and community engagement, I seek to create safe and empowering environments where children and young people can develop their talents, grow in faith, build life skills, and discover their God-given purpose.I am particularly committed to addressing challenges affecting young people and families, including drug and substance abuse, school dropout, early pregnancy, gender-based violence, and limited opportunities for youth development.Through Sport for Hope, I envision sport becoming a pathway to hope, opportunity, and transformation. I believe that when young people are given the right support, mentorship, opportunities, and guidance, they can overcome challenges and become responsible leaders who positively impact their communities.I welcome partnerships with individuals, churches, organizations, foundations, businesses, and donors who share a commitment to investing in young people and creating lasting community impact.Together, we can empower, educate, and transform lives through sport and the hope of Christ.',
 }
 
 const achievements = [
   {  title: 'Bachelor Arts degree in Theology', detail: 'A professionally trained football coach, Christian mentor, and sports ministry practitioner with a passion for transforming lives through sport, faith, mentorship, and community development' },
-  {   title: 'HEADCOACH : ANTIOCH FC', detail: 'A senior team coach of Antioch Fc which is part of sports for hope project' },
+  {   title: 'HEADCOACH : ANTIOCH FC', detail: 'A senior team coach of Antioch Fc which is a faith based club of a ministry of Antioch Bible Community Church and part of sports for hope project' },
   
 ]
 

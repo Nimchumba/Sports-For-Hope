@@ -35,7 +35,7 @@ function Navbar() {
 
         <div className="flex items-center gap-3">
           <Link
-            to="/#register"
+            to="/register"
             className="hidden rounded bg-green-700 px-5 py-2 text-sm font-bold uppercase text-white hover:bg-green-800 sm:block"
           >
             Join Sports for Hope
@@ -62,7 +62,7 @@ function Navbar() {
           ))}
           <li>
             <Link
-              to="/#register"
+              to="/register"
               onClick={() => setOpen(false)}
               className="block rounded bg-green-700 px-5 py-2 text-center font-bold text-white"
             >
