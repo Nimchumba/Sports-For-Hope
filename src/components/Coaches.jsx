@@ -8,7 +8,7 @@ const coach = {
 
 const achievements = [
   {  title: 'Bachelor Arts degree in Theology', detail: 'A professionally trained football coach, Christian mentor, and sports ministry practitioner with a passion for transforming lives through sport, faith, mentorship, and community development' },
-  {   title: 'HEADCOACH : ANTIOCH FC', detail: 'A senior team coach of Antioch Fc which is a faith based club of a ministry of Antioch Bible Community Church and part of sports for hope project' },
+  {   title: 'HEADCOACH : ANTIOCH FC', detail: 'A senior team coach of Antioch Fc which is a faith based club of a ministry of Antioch Bible Community Church' },
   
 ]
 
